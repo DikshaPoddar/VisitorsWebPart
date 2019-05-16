@@ -1,0 +1,13 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "visitors-web-part-client-side-solution",
+    "id": "54631840-9e66-48f4-98db-6efe9bc11ac6",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "isDomainIsolated": false
+  },
+  "paths": {
+    "zippedPackage": "solution/visitors-web-part.sppkg"
+  }
+}

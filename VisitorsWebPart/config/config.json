@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "visitors-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/visitorsWebPart/VisitorsWebPartWebPart.js",
+          "manifest": "./src/webparts/visitorsWebPart/VisitorsWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {
+    "jquery": "node_modules/jquery/dist/jquery.min.js",
+    "jqueryui": "node_modules/jqueryui/jquery-ui.min.js",
+    "datatables": "node_modules/datatables/media/js/jquery.dataTables.min.js"
+  },
+  "localizedResources": {
+    "VisitorsWebPartWebPartStrings": "lib/webparts/visitorsWebPart/loc/{locale}.js"
+  }
+}
